@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="UserRegistration.js" ></script>
+
+    <style>
+ .gradient-custom-3 {
+
+background: #84fab0;
+
+
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+
+background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+
+background: #84fab0;
+
+
+background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+
+background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+    </style>
+</head>
+<body>
+    <section class="vh-200 bg-image"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+  <div class="mask d-flex align-items-center h-150 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 25px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+              <form>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="name" class="form-control form-control-lg" required />
+                  <label class="form-label" for="name">Name<span id="valid1" style="color: orangered;"></span></label>
+                </div>
+
+
+                <div class="form-outline mb-4">
+                  <input type="email" id="em" class="form-control form-control-lg"  required/>
+                  <label class="form-label" for="form3Example4cdg">Email<span id="valid2" style="color: orangered;"></span></label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="password" id="pwd" class="form-control form-control-lg" required />
+                  <label class="form-label" for="form3Example4cdg">Password<span id="valid3" style="color: orangered;"></span></label>
+                </div>
+
+                <!-- <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example4cdg">Confirm Password</label>
+                </div> -->
+
+                  <div class="form-check form-check-inline">
+                
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                  <label class="form-check-label" for="form2Example3">
+                    I agree all statements in <a href="#!">Terms of service</a>
+                  </label>
+                </div>
+
+                  <br><br>
+                <div class="d-flex justify-content-center">
+                  <button type="button"
+                     id="register" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                </div>
+                  <br>
+                    <div class="alert alert-info" role="alert">
+                     Have already an account? <a href="login_ank.html" class="alert-link">Login here</a>
+                    </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

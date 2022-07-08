@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Login.js" ></script>
+    <script>
+      function logout()
+      {
+        //localStorage.removeItem("em");
+        location.href="http://127.0.0.1:5500/Home.html"
+      }
+    </script>
+    <style>
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-primary">
+        <a class="navbar-brand" href="Home.html">
+          <img src="/logo.jfif" width="80" height="80" alt=""><span style="margin-left:450px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Ak's Lab</span>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/Home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signUp.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Test.html">Test Records</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn" type="submit" onclick="logout()">Logout</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+      </nav>
+<section class="vh-100">
+  <div class="container-fluid h-custom">
+    <div class="row d-flex justify-content-center align-items-center h-100 ">
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img src="/first.jpg"
+          class="img-fluid" alt="Sample image">
+      </div>
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form>
+         
+          <div class="form-outline mb-4">
+            <input type="email" id="em" class="form-control form-control-lg"
+              placeholder="Enter a valid email address" required="@" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-3">
+            <input type="password" id="pwd" class="form-control form-control-lg"
+              placeholder="Enter minimum three charaster" />
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <!-- Checkbox -->
+            <div class="form-check mb-0">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+              <label class="form-check-label" for="form2Example3">
+                Remember me
+              </label>
+            </div>
+            <a href="#!" class="text-body">Forgot password?</a>
+          </div>
+
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="button" id="bt1" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button><br><br>
+  
+                <div class="alert alert-info" role="alert">
+                  Don't have an account? <a href="signUp.html" class="alert-link">Register here</a>
+                 </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-primary text-white text-center text-lg-start">   
+    <div class="row">          
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Us</h5>   
+        <p>
+          We understand what it takes to run a successful laboratory.
+           As the largest member association for board-certified pathologists, 
+           our 18,000 global members provide a unique network of knowledge and leadership to
+            stay current with changes in laboratory medicine and pathology.
+        </p>
+      </div>         
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Important Links</h5>    
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Awards</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Department</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Test Range</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Our Network</a>
+          </li>
+        </ul>
+      </div>
+     <br>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Other Links</h5>    
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">FAQ's</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Find a Center Near You</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Services</a>
+          </li>
+        </ul>
+      </div>          
+    </div>     
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(1, 1, 3, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Lab@India.com</a>
+  </div>
+</footer>
+</section>
+</body>
+<script>
+  function logout()
+  {
+    //localStorage.removeItem("em");
+    location.href="http://127.0.0.1:5500/Home.html"
+  }
+</script>
+</html>

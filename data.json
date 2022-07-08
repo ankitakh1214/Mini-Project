@@ -1,0 +1,254 @@
+{
+  "Patients": [
+    {
+      "name": "Akshay",
+      "id": 1,
+      "pass": "abc",
+      "status": "admin",
+      "email": "akshay@gmail.com"
+    },
+    {
+      "name": "Vishal",
+      "id": 2,
+      "pass": "abc",
+      "status": "user",
+      "email": "vishal@gmail.com"
+    },
+    {
+      "name": "Pranav",
+      "id": 3,
+      "pass": "abc",
+      "status": "user",
+      "email": "pranav@gmail.com"
+    },
+    {
+      "email": "sham@gmail.com",
+      "password": "abc",
+      "id": 4
+    },
+    {
+      "email": "sham@gmail.com",
+      "password": "abc",
+      "id": 5
+    },
+    {
+      "email": "shubham@gmail.com",
+      "password": "abc",
+      "id": 6
+    },
+    {
+      "email": "kunal@gmail.com",
+      "password": "abc",
+      "id": 7
+    },
+    {
+      "email": "akash@gmail.com",
+      "pass": "123",
+      "status": "user",
+      "id": 9
+    },
+    {
+      "email": "viraj@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 10
+    },
+    {
+      "email": "tushar@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 11
+    },
+    {
+      "email": "suyesh@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 12
+    },
+    {
+      "email": "yogesh@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 13
+    },
+    {
+      "name": "ankita ",
+      "email": "ankita@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 14
+    },
+    {
+      "name": "Akshay Nagawade",
+      "email": "akshayN@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 15
+    },
+    {
+      "name": "Aditya",
+      "email": "aditya@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 16
+    },
+    {
+      "name": "amir",
+      "email": "amir@gmail.com",
+      "pass": "abc",
+      "status": "user",
+      "id": 17
+    }
+  ],
+  "Appoinment": [
+    {
+      "name": "tushar",
+      "test": "blood",
+      "date": "12-03-1996",
+      "contact": "9166542236",
+      "time": "12:01:00",
+      "email": "tushar@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "pranav",
+      "date": "2022-07-11",
+      "time": "12:04",
+      "contact": "9766552233",
+      "test": "Blood",
+      "email": "pranav@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "pranav",
+      "date": "2022-07-18",
+      "time": "13:06",
+      "contact": "9766552233",
+      "test": "Blood",
+      "email": "pranav@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Pradip",
+      "date": "2022-07-15",
+      "time": "16:14",
+      "contact": "9766552233",
+      "test": "Blood",
+      "email": "pranav@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Yogesh",
+      "date": "2022-07-20",
+      "time": "15:16",
+      "contact": "9766552233",
+      "email": "yogesh@gmail.com",
+      "test": "Blood",
+      "id": 5
+    },
+    {
+      "name": "Pranav Yadav",
+      "date": "2022-07-11",
+      "time": "17:04",
+      "contact": "3254685645",
+      "email": "pranav@gmail.com",
+      "test": "blood",
+      "id": 6
+    },
+    {
+      "name": "Pranav Yadav",
+      "date": "2022-07-19",
+      "time": "18:07",
+      "contact": "3164545454",
+      "test": "Himoglobin",
+      "email": "pranav@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "akshayN",
+      "date": "2022-07-11",
+      "time": "20:47",
+      "contact": "8975732542",
+      "test": "Covid- V22",
+      "email": "pranav@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "ankita ",
+      "date": "2022-07-10",
+      "time": "03:44",
+      "contact": "32145678",
+      "test": "Covid-V23",
+      "email": "ankita@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Pranav Yadav",
+      "date": "2022-07-12",
+      "time": "00:44",
+      "contact": "6545654455",
+      "test": "blood",
+      "email": "pranav@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "amir",
+      "date": "2022-07-27",
+      "time": "11:55",
+      "contact": "9766512236",
+      "test": "Covid-V23",
+      "email": "amir@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "contact": "",
+      "test": "",
+      "email": "amir@gmail.com",
+      "id": 12
+    }
+  ],
+  "Test": [
+    {
+      "name": "suger",
+      "cost": "1800",
+      "testcode": "T1",
+      "type": "Blood",
+      "id": 1
+    },
+    {
+      "name": "himoglobin",
+      "cost": "2000",
+      "testcode": "T2",
+      "type": "Blood",
+      "id": 2
+    },
+    {
+      "name": "Covid-V3",
+      "cost": "2000",
+      "testcode": "T4",
+      "type": "Plasma",
+      "id": 3
+    }
+  ],
+  "acceptappointment": [
+    {
+      "acceptance": "1",
+      "id": "1"
+    },
+    {
+      "acceptance": "1",
+      "id": "4"
+    },
+    {
+      "acceptance": "1",
+      "id": "5"
+    },
+    {
+      "acceptance": "1",
+      "id": "11"
+    }
+  ]
+}

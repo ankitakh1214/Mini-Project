@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="addTest.js"></script>
+
+    <script>
+        function logout()
+        {
+          //localStorage.removeItem("em");
+          location.href="http://127.0.0.1:5500/Home.html"
+        }
+      </script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-primary">
+        <a class="navbar-brand" href="Home.html">
+          <img src="/logo.jfif" width="80" height="80" alt=""><span style="margin-left:450px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Ak's Lab</span>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login_ank.html">Sign In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signUp.html">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Test.html">Available Test</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn" type="submit" onclick="logout()">Logout</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+      </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 border p-4 shadow bg-light">
+                <div class="col-12">
+                    <h3 class="fw-normal text-secondary fs-4 text-uppercase mb-4">Add Test form</h3>
+                </div>
+                <form method="post" >
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" id="name1" class="form-control" placeholder="Test Name">
+                        </div><br><br>
+                    
+                        <div class="col-md-6">
+                            <input type="text" id="code" class="form-control" placeholder="Test code">
+                        </div><br><br>
+                     
+                        <div class="col-md-6">
+                            <input type="text" id="cost" class="form-control" placeholder="Enter cost">
+                        </div><br><br>
+                       
+                        <div class="col-md-6">
+                            <input type="text" id="tp" class="form-control" placeholder="Enter type">
+                        </div><br><br>
+                    
+                    
+                        <div class="col-12 mt-5">                        
+                            <button type="submit" id="bt2" class="btn btn-primary float-end">Add Test</button>
+                            <button type="button" class="btn btn-outline-secondary float-end me-2">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><br><br><br>
+    <footer class="bg-primary text-white text-center text-lg-start">
+   
+        <div class="row">
+        
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About Us</h5>
+    
+            <p>
+              We understand what it takes to run a successful laboratory.
+               As the largest member association for board-certified pathologists, 
+               our 18,000 global members provide a unique network of knowledge and leadership to
+                stay current with changes in laboratory medicine and pathology.
+            </p>
+          </div>
+        
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Important Links</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Awards</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Department</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Test Range</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Our Network</a>
+              </li>
+            </ul>
+          </div>
+         <br>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Other Links</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">FAQ's</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Find a Center Near You</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Services</a>
+              </li>
+            </ul>
+          </div>
+         
+        </div>
+       
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(1, 1, 3, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Lab@India.com</a>
+      </div>
+     
+    </footer>
+  
+</body>
+</html>
